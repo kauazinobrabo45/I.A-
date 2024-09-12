@@ -6,70 +6,58 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, uma inteligencia artificial que consegue responder todas as dúvidas que uma pessoa pode ter, ele também cria imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que você se depara com um grande robô altamente inteligente, capaz de responder qualquer pergunta com sua IA. O que você pensaria?",
         alternativas: [
             {
-                texto: "Isso me da medo!",
-                afirmacao: "No início ficou apreensivo com essa tecnologia. "
+                texto: "Isso é incrível!!",
+                afirmacao: "Quis saber mais sobre essa super IA. "
             },
             {
-                texto: "Isso é ótimo!",
-                afirmacao: "Quis aprender usar IA no seu dia a dia."
+                texto: "Isso é assustador demais!",
+                afirmacao: "Nã quis aprender usar IA."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Após descobrir essa nova técnologia com IA, você decide passar esse conhecimento a diante em uma sala de aula. Como você divulgaria essa aula totalmente inovadora?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Usaria, as redes sociais e criaria um site para divulgar o projeto inovador sobre IA.",
+                afirmacao: "Conseguiu atrair um bom público para sua aula."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Opita por não usar as redes sociais para divulgação e distribui folhetos na rua em busca de alunos.",
+                afirmacao: "sentiu que essa não foi uma boa escolha após aparecer somente 5 alunos."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após a primeira aula sobre IA, alguns alunos se questionam se isso realmente é verdade, oque você faria?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Defende a ideia de que a IA realmente funciona e pode ajudar.",
+                afirmacao: "Com isso você consegue manter os alunos nas aulas sobre IA."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Você faz um discurso não muito convincente.",
+                afirmacao: "Com isso vários alunos vão embora por não acreditarem que a IA possa ser útil."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você passa um trabalho para seus alunos desenvolverem um site sobre a IA.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Todos os seus alunos fizeram esse trabalho o trabalho.",
+                afirmacao: "Você percebe que seus alunos estão interessados no assunto, então você decide formar um projeto para desenvolvere essa IA, para beneficio humano."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Poucos alunos entragaram o trabalho.",
+                afirmacao: "Você desiste de tudo isso por pensar que ninguém estava interessado ou iria se interessar pelo assunto."
             }
         ]
     },
-    {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            }
-        ]
-    },
+    
 ];
 
 
